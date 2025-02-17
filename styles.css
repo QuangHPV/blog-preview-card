@@ -5,10 +5,6 @@ p {
     font-size: 16px;
 }
 
-* {
-    transform-style: preserve-3d;
-}
-
 body {
     background-color: hsl(47, 88%, 63%);
     font-family: "Figtree", serif;
