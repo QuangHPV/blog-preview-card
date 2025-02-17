@@ -1,0 +1,82 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p {
+    font-size: 16px;
+}
+
+* {
+    transform-style: preserve-3d;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 100%);
+    width: 385px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px black;
+}
+
+.illustrate {
+    width: auto;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: inherit;
+}
+
+.tag {
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.date {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+.intro {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author p {
+    font-weight: 800;
+    padding-left: 15px;
+}
+
+.author img {
+    width: 10%;
+    height: 10%;
+}
+
